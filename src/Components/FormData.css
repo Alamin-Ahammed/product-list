@@ -1,0 +1,37 @@
+form {
+    max-width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    margin-inline: auto;
+}
+
+form > div > label {
+    display: block;
+    padding: 0.4rem;
+}
+
+form > div > input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+form > div > input:focus {
+    border: 2px solid lightblue;
+    outline: none;
+}
+
+select {
+    margin: 0 0  1rem 0;
+    padding: 0.3rem 0.7rem;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
